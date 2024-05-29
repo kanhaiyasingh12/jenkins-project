@@ -3,7 +3,7 @@ FROM rockylinux:8
 # Install packages
 RUN dnf install -y httpd git && dnf clean all
 
-RUN git clone https://github.com/praveenkpraveen31/docker-project.git
+RUN git clone https://github.com/kanhaiyasingh12/Static-website.git
 # Copy the zip file  container
 RUN cp -rvf Static-website/* /var/www/html/
 
