@@ -12,12 +12,12 @@ In this project, we will make freestyle ***Jenkins*** pipeline with ***Ansible**
 
 ### Prerequisites
 
-- A repository containing our website. In my case https://github.com/Siddhant00Tiwari/Static-website.git.
+- A repository containing our website. In my case https://github.com/kanhaiyasingh12/Static-website.git
 - A repository hosting our Dockerfile, which in my case is this very repo.
 - A docker hub registry to store our built images.
 - Three AWS instances*(Amazon linux 2 in this case)*,  i.e Jenkins host, Ansible host and Docker host. And allow port 8080 in the security group.
     
-    ![intances.png](https://github.com/Siddhant00Tiwari/jenkins_project/blob/e2aef9245b79420a28f9bdc8d92bdffd3ea68cbd/images/intances.png)
+    ![intances.png](https://github.com/kanhaiyasingh12/jenkins-project/blob/main/images/intances.png)
     
 
 ## Setting up our instances
